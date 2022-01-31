@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>792</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>10</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Выберете пол</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Мужчина</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Женщина</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>10</y>
+      <width>151</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Выберите основной атрибут</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Сила</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ловкость</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Интеллект</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>10</y>
+      <width>261</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Введите имя персонажа</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Поиск</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>30</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выбор пола</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>30</y>
+      <width>101</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Выбор атрибута</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>50</y>
+      <width>791</width>
+      <height>541</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action">
+   <property name="text">
+    <string>белый</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>чёрный</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>красный</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="text">
+    <string>зелёный</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>синий</string>
+   </property>
+  </action>
+  <action name="action_6">
+   <property name="text">
+    <string>кисть</string>
+   </property>
+  </action>
+  <action name="action_7">
+   <property name="text">
+    <string>линия</string>
+   </property>
+  </action>
+  <action name="action_8">
+   <property name="text">
+    <string>круг</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
