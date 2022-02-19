@@ -3,7 +3,7 @@ import sys
 
 from PyQt5 import uic
 from PyQt5.QtWidgets import QApplication, QMainWindow, QTableWidgetItem
-con = sqlite3.connect("mydatabase.sqlite")
+con = sqlite3.connect("mydatabase.db")
 cur = con.cursor()
 
 class MyWidget(QMainWindow):
